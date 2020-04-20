@@ -23,6 +23,7 @@ var jwtCheck = jwt({
 
 });
 
+
 //app.use(jwtCheck);
 app.use(bodyParser.json());
 app.use('/', route);
